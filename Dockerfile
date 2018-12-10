@@ -1,6 +1,6 @@
-FROMnode:6
+FROM node:6
 
-COPY index.js/usr/src/app/
+COPY index.js /usr/src/app/
 WORKDIR /usr/src/app
 
-EXPOSE80
+EXPOSE 80
